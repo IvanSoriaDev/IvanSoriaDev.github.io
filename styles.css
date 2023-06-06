@@ -9,6 +9,8 @@ p{
 
 nav{
     background-color: #868B8E;
+    position: sticky;
+    top: 0; 
 }
 
 ul li{
@@ -16,7 +18,7 @@ ul li{
     padding: 10px 5px;
 }
 
-#home, #blog{
+#home, #skills, #blog{
     background-color: #EEEDE7;
 }
 

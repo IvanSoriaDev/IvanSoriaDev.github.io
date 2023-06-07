@@ -56,6 +56,6 @@ gql(GET_USER_ARTICLES, { page: 0 })
         document.querySelector('.app').appendChild(container);
 });
 
-document.getElementById('blog').innerHTML = `
+document.getElementById('blog-articles').innerHTML = `
 <div class="app">
 </div>`;

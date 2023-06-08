@@ -82,7 +82,7 @@ nav a:hover{
     margin-left: 5%;
 }
 
-#blog h2, #blog p, #blog a{
+#blog p, #blog a{
     text-align: justify;
     padding: 20px;
 }
@@ -104,6 +104,8 @@ nav a:hover{
 section h2{
     text-align: center;
     font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 #projects, #skills, #resume, #blog, #contact{
@@ -122,4 +124,20 @@ section h2{
 .resume-file{
     text-align: center; 
     margin-top: 55px;
+}
+
+#skills{
+    text-align:center;
+}
+
+#skills img{
+    width: 90px;
+    height: 90px;
+    display:inline-block;
+    margin:5px 20px;
+    padding:5px;
+}
+
+.profesional-experience{
+    margin-bottom: 65px;
 }

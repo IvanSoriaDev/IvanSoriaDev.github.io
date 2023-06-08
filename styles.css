@@ -99,6 +99,8 @@ nav a:hover{
 .contact-methods img{
     width: 70px;
     height: 70px;
+    margin:5px 20px;
+    padding:5px;
 }
 
 section h2{

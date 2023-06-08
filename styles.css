@@ -1,0 +1,45 @@
+nav{
+    /* position: sticky;
+    top: 0; */
+    background-color: #189AB4 ;
+    text-align : right;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-box-shadow: 0px 2px 0px     rgba(0,0,0,0.2);
+    -moz-box-shadow:0px 2px 0px     rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 1px rgba(0,0,0,0.2);
+}  
+
+
+nav a{
+    text-decoration: none;
+    color: #EAEAEA;
+    padding-right: 20px;
+    font-size: 19px;
+}
+
+nav a:hover{
+    color: #2c3e50;
+}
+
+#home, #skills, #blog{
+    background-color: #EAEAEA;
+}
+
+.poject-container{
+    height: auto;
+    padding: 1% 5%;
+}
+
+.poject-container img{
+    width: 90%;
+}
+
+.poject-container a img{
+    width: 6%;
+}
+
+.web-poject-container img{
+    width: 90%;
+}

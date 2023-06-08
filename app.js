@@ -39,7 +39,7 @@ gql(GET_USER_ARTICLES, { page: 0 })
 
             let coverImage = document.createElement('img');
             coverImage.src = article.coverImage;
-            let title = document.createElement('h2');
+            let title = document.createElement('h3');
             title.innerText = article.title;
 
             let brief = document.createElement('p');
@@ -56,4 +56,14 @@ gql(GET_USER_ARTICLES, { page: 0 })
             container.appendChild(link);
             document.querySelector('#blog-articles').appendChild(container);
         })
+});
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
 });

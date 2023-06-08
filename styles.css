@@ -1,4 +1,10 @@
-body { overflow-x:hidden; }
+body {
+    overflow-x:hidden; 
+}
+
+*{
+    color: #6b6b6b;
+}
 
 nav{
     background-color: #a3acbd ;
@@ -44,12 +50,13 @@ nav a:hover{
 #home p{
     font-size: 30px;
     padding: 9%;
+    text-align: justify;
     background:linear-gradient(90deg, #afbee5 -10%, #293e63 100%);
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
 }
 
-#home, #skills, #blog{
+#home, #skills, #resume{
     background-color: #EAEAEA;
 }
 
@@ -78,4 +85,41 @@ nav a:hover{
 #blog h2, #blog p, #blog a{
     text-align: justify;
     padding: 20px;
+}
+
+#contact{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#contact p{
+    font-size: 30px;
+}
+
+.contact-methods img{
+    width: 70px;
+    height: 70px;
+}
+
+section h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+#projects, #skills, #resume, #blog, #contact{
+    padding: 55px;
+}
+
+.work-description{
+    font-size: 20px;
+    text-align: justify;
+}
+
+#resume p{
+    font-size: 25px;
+}
+
+.resume-file{
+    text-align: center; 
+    margin-top: 55px;
 }

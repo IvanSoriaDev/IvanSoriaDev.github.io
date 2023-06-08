@@ -30,10 +30,13 @@ const GET_USER_ARTICLES =
 
 gql(GET_USER_ARTICLES, { page: 0 })
     .then(result => {
+
         const articles = result.data.user.publication.posts;
-        let container = document.createElement('div');
 
         articles.forEach(article => {
+            let container = document.createElement('div');
+            container.className = 'col-lg-4 col-xs-1 border'
+
             let coverImage = document.createElement('img');
             coverImage.src = article.coverImage;
             let title = document.createElement('h2');
@@ -51,11 +54,6 @@ gql(GET_USER_ARTICLES, { page: 0 })
             container.appendChild(title);
             container.appendChild(brief);
             container.appendChild(link);
+            document.querySelector('#blog-articles').appendChild(container);
         })
-
-        document.querySelector('.app').appendChild(container);
 });
-
-document.getElementById('blog-articles').innerHTML = `
-<div class="app">
-</div>`;

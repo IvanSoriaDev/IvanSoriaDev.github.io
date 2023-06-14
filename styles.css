@@ -58,18 +58,17 @@ nav {
   padding: 20px;
 }
 
-#resume p{
-  text-align: center;
-  margin: 35px;
-}
-
-#contact, #skills, .resume-file {
+#contact, #skills, .resume-file, .resume-type {
   text-align: center; 
 }
 
 #contact p, #resume p {
   font-size: 30px;
   margin-bottom: 50px;
+}
+
+#resume {
+  text-align: justify;
 }
 
 .contact-methods img, #skills img {

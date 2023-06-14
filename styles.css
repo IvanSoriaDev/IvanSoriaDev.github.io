@@ -53,9 +53,14 @@ nav {
   margin-left: 5%;
 }
 
-#blog p, #blog a, .work-description, #resume p {
+#blog p, #blog a, .work-description {
   text-align: justify;
   padding: 20px;
+}
+
+#resume p{
+  text-align: center;
+  margin: 35px;
 }
 
 #contact, #skills, .resume-file {
